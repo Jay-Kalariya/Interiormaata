@@ -3,7 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import HeadingTextAnimation from "@/Common/AnimatedText/HeadingTextAnimation";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
-import HomePageBanner from "@/images/Home_page_banner.png";
+import HomePageBanner from "@/images/Home_Page_Banner.png";
 import styles from "@/Components/Home_page_Banner/Banner.module.css";
 const Page = () => {
   const [ref, inView] = useInView({
