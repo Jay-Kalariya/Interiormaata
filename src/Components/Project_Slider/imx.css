@@ -1,0 +1,18 @@
+
+.swiper-pagination-bullet-active {
+    width: 11px !important;
+    height: 11px !important;
+    background-color: #CC7D45;
+  }
+  .swiper-pagination-bullet{
+    width: 11px !important;
+    height: 11px !important;
+  }
+  .swiper-pagination-bullet-active-prev{
+    width: 11px !important;
+    height: 11px !important;
+  }
+  .swiper-pagination-bullet-active-next{
+    width: 11px !important;
+    height: 11px !important;
+  }

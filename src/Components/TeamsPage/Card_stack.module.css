@@ -1,0 +1,49 @@
+.cards {
+  background-color: rgb(222, 215, 215);
+  height: 70vh;
+  width: 90%;
+  position: relative;
+  margin: 12rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 70vh;
+  width: 60%;
+  position: absolute;
+  background-color: blueviolet;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 {
+  left: 0;
+  top: 0;
+  background-color: rgb(12, 39, 30);
+}
+
+.card2 {
+  left: 35px;
+  top: 35px;
+  background-color: brown;
+}
+.card3 {
+  left: 70px;
+  top: 70px;
+  background-color: rgb(155, 112, 112);
+}
+/* .card4{
+    top: 105px;
+    left: 105px;
+} */
+.card h2{
+    color: rgb(233, 223, 223);
+    font-size: 3em;
+    font-weight: 900;
+    font-stretch:expanded;
+}

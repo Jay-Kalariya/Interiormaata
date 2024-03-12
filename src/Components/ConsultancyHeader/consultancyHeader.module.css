@@ -1,0 +1,68 @@
+.Online_consultancy_banner {
+      width: 100%;
+      height: 100%;
+    }
+    .Consultancy_Banner {
+      width: 100%;
+      display: block;
+      height: 100vh;
+    }
+    .Online_consultancy_img {
+      position: relative;
+    }
+    .Online_Consultancy_Content {
+      position: absolute;
+      top: 50%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+    }
+    .Consultancy_Banner_text {
+      color: #7f7047;
+      font-family: Roseritta;
+      font-size: 58px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+    @media screen and (max-width: 1024px) {
+      .Consultancy_Banner {
+        max-width: 100%;
+        height: auto;
+      }
+      .Online_Consultancy_Content {
+        top: 45%;
+        left: 25%;
+      }
+    }
+    
+    @media screen and (max-width: 768px) {
+      .Consultancy_Banner {
+        max-width: 100%;
+        height: auto;
+      }
+      .Consultancy_Banner_text {
+        font-size: 44px;
+      }
+      .Online_Consultancy_Content {
+        left: 28%;
+        top: 50%;
+    
+      }
+    }
+    
+    @media screen and (max-width: 576px) {
+      .Consultancy_Banner {
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: 4/3;
+        object-fit: cover;
+      }
+      .Consultancy_Banner_text {
+        font-size: 22px;
+      }
+      .Online_Consultancy_Content {
+        top: 60%;
+    left: 27%;
+      }
+    }

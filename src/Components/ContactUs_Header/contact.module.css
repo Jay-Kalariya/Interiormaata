@@ -1,0 +1,71 @@
+.Contact_Us_outer {
+    position: relative;
+  }
+  .Contact_us_overlay {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+  .Contact_us_overlay_text {
+    color: #fff;
+    width: 100%;
+    font-family: Roseritta;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .Contact_Us_img{
+      width: 100%;
+      display: block;
+      height: 100vh;
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    .Contact_us_overlay {
+      position: absolute;
+      top: 45%;
+      left: 25%;
+      transform: translate(-50%, -50%);
+    }
+
+    .Contact_Us_img{
+      width: 100%;
+      display: block;
+      height: revert-layer;
+  }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .Contact_us_overlay {
+      position: absolute;
+      top: 50%;
+      left: 35%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 500px) {
+    .Contact_us_overlay_text {
+      font-size: 22px;
+    }
+    .Contact_Us_img{
+      width: 100%;
+      display: block;
+      height: auto;
+      aspect-ratio: 4/3;
+      object-fit: cover;
+  }
+  .Contact_us_overlay {
+    position: absolute;
+    top: 60%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+  }
+  }
+  
+  
